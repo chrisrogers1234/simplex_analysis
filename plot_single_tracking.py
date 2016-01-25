@@ -302,5 +302,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print "Finished - press <Carriage Return> to continue"
     raw_input()
 
