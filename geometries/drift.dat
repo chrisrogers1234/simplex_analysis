@@ -1,0 +1,20 @@
+
+Configuration Step_3pi_2_alt
+{
+
+  Dimensions 5. 5. 20. m
+  PropertyString Material Galactic
+
+  Module VirtualPlane
+  {
+    Position 0. 0. -5000.0+@RepeatNumber*100 mm
+    Rotation 0. 0. 0. degree
+    Volume None
+    PropertyString SensitiveDetector Virtual
+    PropertyBool RepeatModule2 True
+    PropertyInt NumberOfRepeats 100
+    PropertyString IndependentVariable z
+  }
+}
+
+
